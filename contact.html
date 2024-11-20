@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="this is the contact page of erin harper's website"
+    />
+    <link rel="stylesheet" href="css files/style.css" />
+    <link rel="stylesheet" href="css files/normalize.css" />
+    <title>contact</title>
+    <script
+      src="https://kit.fontawesome.com/161eb88f79.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <input type="checkbox" id="check" />
+    <label for="check">
+      <i class="fa fa-thin fa-bars" id="btn"></i>
+      <i class="fa fa-thin fa-xmark" id="cancel"></i>
+    </label>
+    <div class="sidebar">
+      <header>menu</header>
+      <a href="index.html"><span>home</span></a>
+      <a href="portfolio.html"><span>portfolio</span></a>
+      <a href="about.html"><span>about</span></a>
+      <a href="contact.html"><span>contact</span></a>
+      <a href="devblogs.html"><span>devblogs</span></a>
+      <a href="essay.html"><span>essay</span></a>
+      <a href="design.html"><span>design</span></a>
+    </div>
+
+    <section class="contactheader">
+      <h1>contact</h1>
+    </section>
+
+    <section class="contact">
+      <div class="row">
+        <div class="contactcol">
+          <div>
+            <i class="fa fa-instagram"></i>
+            <span>
+              <h5>instagram</h5>
+              <p>@curlygirl.e</p>
+            </span>
+          </div>
+        </div>
+        <div class="contactcol">
+          <div>
+            <i class="fa fa-light fa-phone"></i>
+            <span>
+              <h5>phone number</h5>
+              <p>082 832 3672</p>
+            </span>
+          </div>
+        </div>
+        <div class="contactcol">
+          <div>
+            <i class="fa fa-sharp fa-light fa-envelope"></i>
+            <span>
+              <h5>email</h5>
+              <p>erinharper24@gmail.com</p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="contactcol">
+        <form action="form/form.php" method="pos">
+         <input type="text" name="name" placeholder="enter your name" required>
+         <input type="email" name="email" placeholder="enter your email adress" required>
+         <input type="text" name="subject" placeholder="enter your subject" required>
+         <textarea rows="8" name="message" placeholder="message" required></textarea>
+         <button type="sub" class="btn">send message</button>
+        </form> 
+    </section>  
+  </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="this is the homepage of erin harper's website"
+    />
+    <title>erin harper</title>
+    <link rel="stylesheet" href="css files/style.css" />
+    <link rel="stylesheet" href="css files/normalize.css" />
+    <script
+      src="https://kit.fontawesome.com/161eb88f79.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="header">
+      <nav>
+        <div class="navbar" id="navBar">
+          <i class="fa fa-thin fa-xmark" onclick="closeMenu()"></i>
+          <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="portfolio.html">portfolio</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="devblogs.html">devblogs</a></li>
+            <li><a href="essay.html">essay</a></li>
+            <li><a href="design.html">design</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-thin fa-bars" onclick="openMenu()"></i>
+      </nav>
+    </div>
+
+    <div class="container">
+      <div class="title-text">
+        <h1>
+          i am <span class="typed-text"></span>
+          <span class="cursor">&nbsp;</span>
+        </h1>
+      </div>
+    </div>
+
+    <script>
+      var navBar = document.getElementById("navBar");
+      function openMenu() {
+        navBar.style.left = "0";
+      }
+      function closeMenu() {
+        navBar.style.left = "-200px";
+      }
+    </script>
+
+    <script type="text/javascript" src="js files/javascript.js"></script>
+  </body>
+</html>
